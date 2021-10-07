@@ -1,5 +1,5 @@
 # Zen Host
-[![Actions Status](https://github.com/WajahatAliAbid/zen-host/workflows/.NET%20Core%20Build/badge.svg?branch=main)](https://github.com/WajahatAliAbid/zen-host/actions) [![Actions Status](https://github.com/WajahatAliAbid/zen-host/workflows/.NET%20Core%20Publish/badge.svg)](https://github.com/WajahatAliAbid/zen-host/actions) [![Current Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?logo=nuget&labelColor=30363D)](./CHANGELOG.md#100---2021-10-07)
+[![Actions Status](https://github.com/WajahatAliAbid/zen-host/workflows/.NET%20Core%20Build/badge.svg?branch=main)](https://github.com/WajahatAliAbid/zen-host/actions) [![Actions Status](https://github.com/WajahatAliAbid/zen-host/workflows/.NET%20Core%20Publish/badge.svg)](https://github.com/WajahatAliAbid/zen-host/actions) [![Current Version](https://img.shields.io/badge/Version-1.1.0-brightgreen?logo=nuget&labelColor=30363D)](./CHANGELOG.md#110---2021-10-07)
 
 # Overview
 Base class for projects using Startup pattern

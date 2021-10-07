@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2021-10-08
+
+### Added
+
+- Added function to get service collection from startup
+- Added function to get service provider from startup
+
+### Removed
+
+- Removed From function from StartupUtil
+
 ## [1.1.0] - 2021-10-07
+
 ### Removed
 
 - Removed unneeded extension functions
@@ -19,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added startup class
 - Added extension function for adding multiple classes to DI
 
-[Unreleased]: https://github.com/WajahatAliAbid/zen-host/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/WajahatAliAbid/zen-host/compare/1.2.0...HEAD
+[1.2.0]: https://github.com/WajahatAliAbid/zen-host/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/WajahatAliAbid/zen-host/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/WajahatAliAbid/zen-host/releases/tag/1.0.0

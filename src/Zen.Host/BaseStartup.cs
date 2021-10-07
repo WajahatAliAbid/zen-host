@@ -6,7 +6,7 @@ namespace Zen.Host
 {
     public abstract class BaseStartup
     {
-        internal IServiceProvider Configure(string[] args)
+        internal IServiceCollection Configure(string[] args)
         {
             var services = new ServiceCollection();
             var configurationBuilder = new ConfigurationBuilder()
@@ -16,7 +16,7 @@ namespace Zen.Host
             var configuration = configurationBuilder.Build();
             services.AddSingleton<IConfigurationRoot>(configurationBuilder.Build());
             ConfigureServices(services, configuration);
-            return services.BuildServiceProvider();
+            return services;
         }
         public virtual void ConfigureAppConfiguration(IConfigurationBuilder configuration)
         {
